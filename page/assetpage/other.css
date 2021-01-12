@@ -1,0 +1,25 @@
+body {
+  width: 700px;
+  margin: 10px auto;
+  font-family: "Noto Sans TC, sans-serif";
+}
+div {
+  width: 500px;
+  border: 1px solid transparent;
+}
+
+.img {
+  width: 500px;
+  border: 1px solid transparent;
+}
+#paella-1
+section p {
+  border-bottom: 1px solid #000000;
+}
+
+.tenreasons div {
+  margin: 10px auto;
+}
+section #number_one p {
+  height: 500px;
+}
