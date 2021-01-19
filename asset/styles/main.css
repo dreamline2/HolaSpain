@@ -1,5 +1,4 @@
 body {
-  width: 700px;
   margin: 10px auto;
   font-family: "Noto Sans TC, sans-serif";
 }
@@ -9,22 +8,117 @@ div {
 }
 
 .img {
-  width: 900px;
+  width: 1515px;
   border: 1px solid transparent;
 }
+.mainpage h1 {
+  font-size: 30px;
+  margin: 10px auto;
+  text-align: center
+}
 .menu {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 .menu::after {
-    content: '';
-    clear: both;
-    display: block;
+  content: "";
+  clear: both;
+  display: block;
 }
 .menu li {
-    float: right;
-    padding: 10px;
-    list-style: none;
+  float: right;
+  padding: 10px;
+  list-style: none;
 }
 .menu {
-font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.box_container_1 li {
+  float:left;
+  list-style: none;
+  margin: 50px;
+  
+}
+.life_in_spain {
+  width: 13em;
+  height: 13em;
+  background-color:#ffffff;
+  background-image: url(../sagradafamilia.jpg);
+  background-size: 390px;
+  border-radius: 1em;
+  font-size: 22px;
+}
+.life_in_spain h3, .life_in_spain p  {
+  color: rgb(255, 255, 255);
+  text-align: center ;
+  text-decoration-line: overline underline ;
+}
+.elementary_junior {
+  width: 13em;
+  height: 13em;
+  background-color:#ffffff;
+  background-image: url(../elementary.jpg);
+  background-size: 390px;
+  border-radius: 1em;
+  font-size: 22px;
+}
+.elementary_junior h3, .elementary_junior p  {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration-line: overline underline ;
+}
+.adult {
+  width: 13em;
+  height: 13em;
+  background-color:#ffffff;
+  background-image: url(../sagradafamilia.jpg);
+  background-size: 390px;
+  border-radius: 1em;
+  font-size: 22px;
+}
+.adult h3, .adult p  {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration-line: overline underline ;
+}
+.business_class {
+  width: 13em;
+  height: 13em;
+  background-color:#ffffff;
+  background-image: url(../sagradafamilia.jpg);
+  background-size: 390px;
+  border-radius: 1em;
+  font-size: 22px;
+}
+.business_class h3, .business_class p  {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration-line: overline underline ;
+}
+.for_cooperate {
+  width: 13em;
+  height: 13em;
+  background-color:#ffffff;
+  background-image: url(../sagradafamilia.jpg);
+  background-size: 390px;
+  border-radius: 1em;
+  font-size: 22px;
+}
+.for_cooperate h3, .for_cooperate p  {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration-line: overline underline ;
+}
+.online_clase {
+  width: 13em;
+  height: 13em;
+  background-color: purple;
+  background-image: url(../onlineclass.jpg);
+  background-size: 280px;
+  border-radius: 1em;
+  font-size: 22px;
+}
+.online_clase h3, .online_clase p  {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration-line: overline underline ;
 }
