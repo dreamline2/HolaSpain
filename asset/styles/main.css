@@ -45,12 +45,17 @@ div {
   background-image: url(../sagradafamilia.jpg);
   background-size: 390px;
   border-radius: 1em;
-  font-size: 22px;
+  font-size: 22px; 
+  -webkit-text-stroke:1px #ffffff;
+  -webkit-text-fill-color: #ffffff;
+  text-shadow:0.1em 0.1em #070707;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 .life_in_spain h3, .life_in_spain p  {
   color: rgb(255, 255, 255);
   text-align: center ;
-  text-decoration-line: overline underline ;
 }
 .elementary_junior {
   width: 13em;
@@ -60,11 +65,16 @@ div {
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
+  text-shadow:0.1em 0.1em #070707;
+  -webkit-text-stroke:1px #ffffff;
+  -webkit-text-fill-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 .elementary_junior h3, .elementary_junior p  {
   color: rgb(255, 255, 255);
   text-align: center;
-  text-decoration-line: overline underline ;
 }
 .adult {
   width: 13em;
@@ -74,11 +84,16 @@ div {
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
+  text-shadow:0.1em 0.1em #070707;
+  -webkit-text-stroke:1px #ffffff;
+  -webkit-text-fill-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 .adult h3, .adult p  {
   color: rgb(255, 255, 255);
   text-align: center;
-  text-decoration-line: overline underline ;
 }
 .business_class {
   width: 13em;
@@ -88,11 +103,16 @@ div {
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
+  text-shadow:0.1em 0.1em #070707;
+  -webkit-text-stroke:1px #ffffff;
+  -webkit-text-fill-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 .business_class h3, .business_class p  {
   color: rgb(255, 255, 255);
   text-align: center;
-  text-decoration-line: overline underline ;
 }
 .for_cooperate {
   width: 13em;
@@ -102,11 +122,16 @@ div {
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
+  text-shadow:0.1em 0.1em #070707;
+  -webkit-text-stroke:1px #ffffff;
+  -webkit-text-fill-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 .for_cooperate h3, .for_cooperate p  {
   color: rgb(255, 255, 255);
   text-align: center;
-  text-decoration-line: overline underline ;
 }
 .online_clase {
   width: 13em;
@@ -116,9 +141,22 @@ div {
   background-size: 280px;
   border-radius: 1em;
   font-size: 22px;
+    text-shadow:0.1em 0.1em #070707;
+  -webkit-text-stroke:1px #ffffff;
+  -webkit-text-fill-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
 }
 .online_clase h3, .online_clase p  {
   color: rgb(255, 255, 255);
   text-align: center;
-  text-decoration-line: overline underline ;
+}
+.row {
+  margin: 0 auto;
+}
+.box {
+  line-height: 100px;
+  margin: 10px;
+  padding: 10px;
 }
