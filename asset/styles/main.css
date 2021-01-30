@@ -3,18 +3,25 @@ body {
   font-family: "Noto Sans TC, sans-serif";
 }
 div {
-  width: 700px;
   border: 1px solid transparent;
 }
-
+.menu {
+  font-size: 22px;
+}
 .img {
-  width: 1515px;
+  width: 100%;
   border: 1px solid transparent;
 }
 .mainpage h1 {
-  font-size: 30px;
+  position: relative;
+  left: 100px;
+  font-size: 50px;
+  font-weight: bolder;
   margin: 10px auto;
-  text-align: center
+  text-align: left;
+  line-height: 100px;
+
+  height: 700px;
 }
 .menu {
   background-color: rgb(255, 255, 255);
@@ -33,103 +40,107 @@ div {
   font-family: "Noto Sans TC", sans-serif;
 }
 .box_container_1 li {
-  float:left;
+  float: left;
   list-style: none;
   margin: 50px;
-  
 }
 .life_in_spain {
   width: 13em;
   height: 13em;
-  background-color:#ffffff;
+  background-color: #ffffff;
   background-image: url(../sagradafamilia.jpg);
   background-size: 390px;
   border-radius: 1em;
-  font-size: 22px; 
-  -webkit-text-stroke:1px #ffffff;
+  font-size: 22px;
+  -webkit-text-stroke: 1px #ffffff;
   -webkit-text-fill-color: #ffffff;
-  text-shadow:0.1em 0.1em #070707;
+  text-shadow: 0.1em 0.1em #070707;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
 }
-.life_in_spain h3, .life_in_spain p  {
+.life_in_spain h3,
+.life_in_spain p {
   color: rgb(255, 255, 255);
-  text-align: center ;
+  text-align: center;
 }
 .elementary_junior {
   width: 13em;
   height: 13em;
-  background-color:#ffffff;
+  background-color: #ffffff;
   background-image: url(../elementary.jpg);
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
-  text-shadow:0.1em 0.1em #070707;
-  -webkit-text-stroke:1px #ffffff;
+  text-shadow: 0.1em 0.1em #070707;
+  -webkit-text-stroke: 1px #ffffff;
   -webkit-text-fill-color: #ffffff;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
 }
-.elementary_junior h3, .elementary_junior p  {
+.elementary_junior h3,
+.elementary_junior p {
   color: rgb(255, 255, 255);
   text-align: center;
 }
 .adult {
   width: 13em;
   height: 13em;
-  background-color:#ffffff;
+  background-color: #ffffff;
   background-image: url(../sagradafamilia.jpg);
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
-  text-shadow:0.1em 0.1em #070707;
-  -webkit-text-stroke:1px #ffffff;
+  text-shadow: 0.1em 0.1em #070707;
+  -webkit-text-stroke: 1px #ffffff;
   -webkit-text-fill-color: #ffffff;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
 }
-.adult h3, .adult p  {
+.adult h3,
+.adult p {
   color: rgb(255, 255, 255);
   text-align: center;
 }
 .business_class {
   width: 13em;
   height: 13em;
-  background-color:#ffffff;
+  background-color: #ffffff;
   background-image: url(../sagradafamilia.jpg);
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
-  text-shadow:0.1em 0.1em #070707;
-  -webkit-text-stroke:1px #ffffff;
+  text-shadow: 0.1em 0.1em #070707;
+  -webkit-text-stroke: 1px #ffffff;
   -webkit-text-fill-color: #ffffff;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
 }
-.business_class h3, .business_class p  {
+.business_class h3,
+.business_class p {
   color: rgb(255, 255, 255);
   text-align: center;
 }
 .for_cooperate {
   width: 13em;
   height: 13em;
-  background-color:#ffffff;
+  background-color: #ffffff;
   background-image: url(../sagradafamilia.jpg);
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
-  text-shadow:0.1em 0.1em #070707;
-  -webkit-text-stroke:1px #ffffff;
+  text-shadow: 0.1em 0.1em #070707;
+  -webkit-text-stroke: 1px #ffffff;
   -webkit-text-fill-color: #ffffff;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
 }
-.for_cooperate h3, .for_cooperate p  {
+.for_cooperate h3,
+.for_cooperate p {
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -141,14 +152,15 @@ div {
   background-size: 280px;
   border-radius: 1em;
   font-size: 22px;
-    text-shadow:0.1em 0.1em #070707;
-  -webkit-text-stroke:1px #ffffff;
+  text-shadow: 0.1em 0.1em #070707;
+  -webkit-text-stroke: 1px #ffffff;
   -webkit-text-fill-color: #ffffff;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
 }
-.online_clase h3, .online_clase p  {
+.online_clase h3,
+.online_clase p {
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -157,6 +169,20 @@ div {
 }
 .box {
   line-height: 100px;
-  margin: 10px;
+  margin: 10px auto;
   padding: 10px;
+}
+.body_box h2,
+.body_box p {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin: 50px;
+  width: 1311;
+}
+#learnspanish {
+  background-image: url(../adria.jpg);
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
