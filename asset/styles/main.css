@@ -17,10 +17,9 @@ div {
   left: 100px;
   font-size: 50px;
   font-weight: bolder;
-  margin: 10px auto;
   text-align: left;
   line-height: 100px;
-
+  width: 400px;
   height: 700px;
 }
 .menu {
@@ -177,12 +176,19 @@ div {
   text-align: center;
   font-size: 30px;
   padding: 10px;
-  margin: 50px;
-  width: 1311;
+  margin: 50px auto;
+  width: 100%;
 }
 #learnspanish {
   background-image: url(../adria.jpg);
   background-position: 50% 30%;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+#channel {
+  width: 100%;
+}
+.collapse {
+align-items: left;
 }
