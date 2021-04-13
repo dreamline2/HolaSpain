@@ -14,13 +14,22 @@ div {
 }
 .mainpage h1 {
   position: relative;
-  left: 100px;
+  left: 50%;
   font-size: 50px;
   font-weight: bolder;
-  text-align: left;
-  line-height: 100px;
+  line-height: 700px;
   width: 400px;
   height: 700px;
+  margin-left: -10%;
+}
+#learnspanish::before {
+  content: "跟我們一起來學西文";
+  line-height: 700px;
+  z-index: 999;
+  color: #f8f8f8;
+  font-size: 50px;
+  font-family: "Noto Sans TC, sans-serif";
+  font-weight: bolder;
 }
 .menu {
   background-color: rgb(255, 255, 255);
@@ -30,6 +39,7 @@ div {
   clear: both;
   display: block;
 }
+
 .menu li {
   float: right;
   padding: 10px;
@@ -58,6 +68,7 @@ div {
   background-position: 50%;
   background-size: cover;
 }
+
 .life_in_spain h3,
 .life_in_spain p {
   color: rgb(255, 255, 255);
@@ -170,6 +181,71 @@ div {
   line-height: 100px;
   margin: 10px auto;
   padding: 10px;
+  border-radius: 0;
+  width: 100%;
+  position: relative;
+}
+.box::before {
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.411);
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 248px;
+  text-align: center;
+}
+.life_in_spain::before {
+  content: "西班牙生活";
+}
+
+.elementary_junior::before {
+  content: "國小國中課程";
+}
+
+.adult::before {
+  content: "成人興趣班";
+}
+.business_class::before {
+  content: "社會人士及商業人士";
+}
+.for_cooperate::before {
+  content: "企業課程";
+}
+.online_clase::before {
+  content: "線上課程";
+}
+.box::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.411);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 255, 255, 0.8) 78%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 255, 255, 0.8) 78%
+  );
+  background: -webkit-linear-gradient(
+    277deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(43, 42, 42, 0.411) 88%
+  );
+  background: -o-linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 255, 255, 0.8) 78%
+  );
 }
 .body_box h2,
 .body_box p {
@@ -179,6 +255,13 @@ div {
   margin: 50px auto;
   width: 100%;
 }
+.body_box iframe {
+  padding: 10px;
+  margin: 50px auto;
+  width: 50%;
+  display: block;
+}
+
 #learnspanish {
   background-image: url(../adria.jpg);
   background-position: 50% 30%;
@@ -190,5 +273,15 @@ div {
   width: 100%;
 }
 .collapse {
-align-items: left;
+  align-items: left;
+}
+ul .nav-item {
+  width: 95px;
+}
+.d-flex {
+  margin: 0;
+  height: 38px;
+}
+form ul .nav-link {
+  height: 38px;
 }
