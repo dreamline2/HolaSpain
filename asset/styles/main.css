@@ -23,7 +23,7 @@ div {
   margin-left: -10%;
 }
 #learnspanish::before {
-  content: "跟我們一起來學西文";
+  content: "跟我們一起來學語言";
   line-height: 700px;
   z-index: 999;
   color: #f8f8f8;
@@ -57,7 +57,7 @@ div {
   width: 13em;
   height: 13em;
   background-color: #ffffff;
-  background-image: url(../sagradafamilia.jpg);
+  background-image: url(../taipei2.jpg);
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
@@ -78,7 +78,7 @@ div {
   width: 13em;
   height: 13em;
   background-color: #ffffff;
-  background-image: url(../elementary.jpg);
+  background-image: url(../usa8.jpg);
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
@@ -98,7 +98,7 @@ div {
   width: 13em;
   height: 13em;
   background-color: #ffffff;
-  background-image: url(../sagradafamilia.jpg);
+  background-image: url(../spain2.jpg);
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
@@ -114,11 +114,11 @@ div {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-.business_class {
+.business_class { 
   width: 13em;
   height: 13em;
   background-color: #ffffff;
-  background-image: url(../sagradafamilia.jpg);
+  background-image: url(../japan.jpg);
   background-size: 390px;
   border-radius: 1em;
   font-size: 22px;
@@ -129,12 +129,12 @@ div {
   background-position: 50%;
   background-size: cover;
 }
-.business_class h3,
-.business_class p {
+/* .business_class h3, */
+/* .business_class p { */
   color: rgb(255, 255, 255);
   text-align: center;
 }
-.for_cooperate {
+/* .for_cooperate { */
   width: 13em;
   height: 13em;
   background-color: #ffffff;
@@ -149,12 +149,12 @@ div {
   background-position: 50%;
   background-size: cover;
 }
-.for_cooperate h3,
+/* .for_cooperate h3, */
 .for_cooperate p {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-.online_clase {
+/* .online_clase { */
   width: 13em;
   height: 13em;
   background-color: purple;
@@ -198,24 +198,18 @@ div {
   text-align: center;
 }
 .life_in_spain::before {
-  content: "西班牙生活";
+  content: "中文課程";
 }
 
 .elementary_junior::before {
-  content: "國小國中課程";
+  content: "英文課程";
 }
 
 .adult::before {
-  content: "成人興趣班";
+  content: "西文課程";
 }
 .business_class::before {
-  content: "社會人士及商業人士";
-}
-.for_cooperate::before {
-  content: "企業課程";
-}
-.online_clase::before {
-  content: "線上課程";
+  content: "日文課程";
 }
 .box::after {
   content: "";
@@ -263,7 +257,7 @@ div {
 }
 
 #learnspanish {
-  background-image: url(../adria.jpg);
+  background-image: url(../adria1.jpg);
   background-position: 50% 30%;
   background-repeat: no-repeat;
   background-size: cover;
