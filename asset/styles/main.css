@@ -12,7 +12,7 @@ div {
   width: 100%;
   border: 1px solid transparent;
 }
-.mainpage h1 {
+/* .mainpage h1 {
   position: relative;
   left: 50%;
   font-size: 50px;
@@ -21,16 +21,16 @@ div {
   width: 400px;
   height: 700px;
   margin-left: -10%;
-}
-#learnspanish::before {
-  content: "跟我們一起來學語言";
+} */
+/* #learnspanish::before {
+  content: "";
   line-height: 700px;
   z-index: 999;
   color: #f8f8f8;
   font-size: 50px;
   font-family: "Noto Sans TC, sans-serif";
   font-weight: bolder;
-}
+} */
 .menu {
   background-color: rgb(255, 255, 255);
 }
@@ -131,10 +131,10 @@ div {
 }
 /* .business_class h3, */
 /* .business_class p { */
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255);
   text-align: center;
-}
-/* .for_cooperate { */
+} */
+/* .for_cooperate {
   width: 13em;
   height: 13em;
   background-color: #ffffff;
@@ -148,13 +148,13 @@ div {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-}
+} */
 /* .for_cooperate h3, */
 .for_cooperate p {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-/* .online_clase { */
+/* .online_clase {
   width: 13em;
   height: 13em;
   background-color: purple;
@@ -168,7 +168,7 @@ div {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-}
+} */
 .online_clase h3,
 .online_clase p {
   color: rgb(255, 255, 255);
@@ -211,7 +211,7 @@ div {
 .business_class::before {
   content: "日文課程";
 }
-.box::after {
+/* .box::after {
   content: "";
   display: block;
   width: 100%;
@@ -240,7 +240,7 @@ div {
     rgba(0, 0, 0, 0) 0%,
     rgba(255, 255, 255, 0.8) 78%
   );
-}
+} */
 .body_box h2,
 .body_box p {
   text-align: center;
